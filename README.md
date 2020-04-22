@@ -1,11 +1,3 @@
----
-attachments: [Screenshot 2020-04-22 at 1.50.12 PM.png]
-tags: [Django, Interview]
-title: Django Interview
-created: '2020-04-22T06:47:32.588Z'
-modified: '2020-04-22T12:00:58.104Z'
----
-
 # Django Interview
 
 ## Basics
@@ -25,7 +17,7 @@ Features :
 - Object-relational mapping (ORM)
 - Testing Framework
 - Fantastic Documentation
-- Open Source and huge collection of availbale packages
+- Open Source and huge collection of available packages
 
 
 **Q. What is the architecture that django follows?**
@@ -177,6 +169,7 @@ With the @receiver decorator, we can link a signal with a function:
 ```python
 from django.db.models.signals import post_save
 from django.dispatch import receiver
+
 from someapp.models import MyModel
 
 @receiver(post_save, sender=MyModel)
@@ -219,6 +212,7 @@ def get_all_logged_in_users():
 
 *Sources*
 [list of logged-n users](https://stackoverflow.com/questions/2723052/how-to-get-the-list-of-the-authenticated-users)
+
 [Understanding Django Signals](https://www.bedjango.com/blog/understanding-django-signals/)
 
 
