@@ -147,7 +147,7 @@ You can use middleware if you want to modify the request i.e HttpRequest object 
 
 Example - SecurityMiddleware, SessionMiddleware, AuthenticationMiddleware etc...
 
-![](@attachment/Screenshot 2020-04-22 at 1.50.12 PM.png)
+![Middleware](attachments/middleware.png)
 
 
 **Q. what is signals and how to use it? What are two important parameter in signals?**
