@@ -61,7 +61,7 @@ Ans. A Django project is a collection of web-applications which coordinate toget
 A typical Django project consists of these four files:
 
 
-|── manage.py
+|── manage.py <br />
 └─┬ ProjectFolder <br />
   ├── settings.py <br />
   ├── __init__.py <br />
