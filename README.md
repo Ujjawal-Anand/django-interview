@@ -62,11 +62,11 @@ A typical Django project consists of these four files:
 
 
 |── manage.py
-└─┬ ProjectFOlder
-  ├── settings.py
-  ├── __init__.py
-  ├── urls.py
-  └─┬ wsgi.py
+└─┬ ProjectFolder <br />
+  ├── settings.py <br />
+  ├── __init__.py <br />
+  ├── urls.py <br />
+  └─┬ wsgi.py <br />
 
 
 The last four files are inside a directory, which is at the same level of manage.py.
